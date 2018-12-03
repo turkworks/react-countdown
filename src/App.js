@@ -10,17 +10,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Countdown</h2>
-
-          <a href="https://github.com/kristinbaumann/react-countdown" target="_blank">
-            <img src={github} alt="github" className="githubIcon" />
-            <span>View on Github</span>
-          </a>
+          <img src='https://images.all-free-download.com/images/graphiclarge/red_merry_christmas_logo_creative_vector_575021.jpg'/>
+          <h2 className="reba-title">Reba's Christmas Countdown</h2>
         </div>
 
-        <h3 className="title">Christmas Eve is coming soon (Midnight of 23rd to 24th Dec, UTC time):</h3>
-        <Countdown date={`${year}-12-24T00:00:00`} />
+        <h3 className="title">Christmas is coming, <span>the goose <br></br>is getting obese</span>:</h3>
+        <Countdown date={`${year}-12-25T00:00:00`} />
       </div>
     );
   }
